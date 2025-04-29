@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: nginx
 spec:
-  type: LoadBalancer # This is the key difference, it exposes the service on a port on each node
+  type: NodePort # This is the key difference, it exposes the service on a port on each node
   selector:
     app: nginx
     tier: frontend
