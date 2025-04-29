@@ -1,6 +1,6 @@
 deployment:
   replicas: 3 # number of replicas
-  imageVersion: latest # image version frequently changes
+  imageVersion: stable-perl # image version frequently changes
 service: 
   nodePort: 30007 # node port for the service
  
